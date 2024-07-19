@@ -22,8 +22,11 @@ jobs:
     - name: Says Hello
       run: echo Hello
 
-    - name: List files
-      run: ls -laR
+    - name: List feature files
+      run: ls -la features
+      
+    - name: List workflow files
+      run: ls -la workflow
       
     - name: Run script
       run: bash ./script.sh
