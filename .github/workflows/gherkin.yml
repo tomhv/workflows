@@ -6,8 +6,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@4
+      with:
+        repository: tomhv/workflows
+      
     - name: Says Hello
       run: echo Hello
 
     - name: List files
-      run: ls -la ${GITHUB_WORKSPACE}
+      run: ls -la
