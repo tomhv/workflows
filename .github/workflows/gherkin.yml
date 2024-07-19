@@ -29,4 +29,4 @@ jobs:
       run: ls -la workflow
       
     - name: Run script
-      run: bash ./script.sh
+      run: bash ./workflow/script.sh
