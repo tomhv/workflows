@@ -15,7 +15,7 @@ jobs:
 
     - uses: actions/checkout@v4
       with:
-        path: features
+        path: repo
         sparse-checkout: |
           features
       
